@@ -53,7 +53,7 @@ gem "sassc-rails"
 
 group :development, :test do
   gem "dotenv-rails"
-  gem 'rspec-rails', '~> 3.5'
+  gem 'rspec-rails', '~> 6.0'
   gem 'factory_bot_rails'
   gem 'capybara'
   gem 'database_cleaner'
