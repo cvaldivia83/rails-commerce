@@ -1,1 +1,11 @@
-<h1> All Products </h1>
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-lg-3 col-md-5 col-12">
+      <% @products.each do |product| %>
+        <div class="product-container">
+          <%= product.name %>
+        </div>
+        <% end %>
+    </div>
+  </div>
+</div>
